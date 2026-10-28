@@ -1,0 +1,16 @@
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+# Generated artefacts (re-create with `python -m src.pipeline --sample`)
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.json
+models/*.pkl
+models/*.json
+models/*.csv
+outputs/figures/*.png
